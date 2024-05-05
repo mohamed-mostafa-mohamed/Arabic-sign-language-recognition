@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+body {
+    background-image: url('background.jpg');
+    /* Add your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    /* Set text color to contrast with the background */
+}
+
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add transparency to the container */
+    padding: 20px;
+    /* Add some padding to the container */
+    border-radius: 10px;
+    /* Add rounded corners to the container */
+    margin: 50px auto;
+    /* Center the container */
+    max-width: 600px;
+    /* Set maximum width for the container */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Add transparency to the form */
+    padding: 20px;
+    /* Add some padding to the form */
+    border-radius: 10px;
+    /* Add rounded corners to the form */
+}
+
+input[type="file"] {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Add transparency to the file input */
+    border: none;
+    /* Remove default border */
+}
+
+.btn-primary {
+    background-color: orange;
+    /* Change background color to orange for "Translate" button */
+    border: none;
+    color: white;
+}
+
+.btn-warning {
+    background-color: rgb(0, 103, 220);
+    /* Change background color to blue for "Clear" button */
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-warning:hover {
+    background-color: white;
+    /* Background color on hover */
+    color: black;
+    /* Text color on hover */
+}
+
+.prediction-text {
+    font-size: 24px;
+    /* Set the font size to 24 pixels */
+    font-weight: bold;
+    /* Make the font bold */
+    text-transform: uppercase;
+    /* Convert text to uppercase */
+    margin-top: 20px;
+    /* Add some top margin */
+}
