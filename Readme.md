@@ -16,5 +16,6 @@ To get started with our web application, follow these steps:
 
 Clone this repository to your local machine.
 Install the necessary dependencies using the provided requirements.txt file.
+Download the AI ​​model to your local machine.
 Run the Flask application to start the server.
 Access the web application through your browser and begin using it.
